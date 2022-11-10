@@ -8,6 +8,7 @@ fn main() {
 
     if args.len() != 2 {
         println!("Provide 1 file to shred!");
+        return;
     }
 
     let file = &args[1];
